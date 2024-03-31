@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="icon" type="image/webp" href="{{ url('img/logo2024.webp') }}">
-    @vite('resources/css/app.css')
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
         html {
             scroll-behavior: smooth;
